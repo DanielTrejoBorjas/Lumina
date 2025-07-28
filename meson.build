@@ -10,7 +10,11 @@ project('Lumina', 'cpp',
 inc = include_directories('include')
 
 src = [
+    #--------vector files--------
+    'src/vector/vector2.cpp',
     'src/vector/vector3.cpp',
+    'src/vector/vector4.cpp',
+    #--------matrix files--------
 ]
 
 lumina_lib= library(
